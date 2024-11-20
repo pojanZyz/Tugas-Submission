@@ -1,1 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  overflow-y: hidden;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  max-width: 1200px;
+  min-height: 72vh;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+aside {
+  background: #ddd;
+  width: 800px;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  height: auto;
+}
+
+.profile-image {
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+section {
+  flex: 3;
+}
+
+section article {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
